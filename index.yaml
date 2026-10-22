@@ -15,3 +15,6 @@ packages:
   - name: knowledge-orion
     type: knowledge
     description: Die hellsten Sterne des Orion
+  - name: assistant-anja
+    type: assistant
+    description: Assistentin Anja, Spezialistin für die Entwicklung von AIOS-Paketen aller Typen
