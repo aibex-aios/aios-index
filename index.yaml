@@ -21,3 +21,6 @@ packages:
   - name: skill-5-8-zusammenfassung
     type: skill
     description: 5-8-Zusammenfassung eines Dokuments als Memo
+  - name: skill-video-analyse
+    type: skill
+    description: Transkript und 5-8-Zusammenfassung eines YouTube-Videos
