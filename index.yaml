@@ -2,25 +2,34 @@ schema: 1
 packages:
   - name: skill-memo
     type: skill
-    description: Memo-Stil für Projekte in AIOS-Vaults
-  - name: assistent-gaertner
+    description: "Memo-Stil für Projekte in AIOS-Vaults (Memos und Specs, neutrale Fassung)"
+  - name: assistant-gaertner
     type: assistant
-    description: Demo-Assistent Gärtner, rechnet nur mit Äpfeln und Birnen
-  - name: assistent-astronom
+    description: "Demo-Assistent Gärtner, rechnet nur mit Äpfeln und Birnen, mit Oberfläche"
+  - name: assistant-astronom
     type: assistant
-    description: Demo-Assistent Astronom, rechnet nur mit Sonne und Mond, nennt Sterndaten
+    description: "Demo-Assistent Astronom, rechnet nur mit Sonne und Mond, nennt Sterndaten aus verfügbarem Wissen"
   - name: app-taschenrechner
     type: app
-    description: Programmierbarer RPN-Taschenrechner mit lernenden Funktionstasten
+    description: "Programmierbarer RPN-Taschenrechner nach dem Vorbild des HP-15C mit lernenden Funktionstasten (Demo-App von AIbex AIOS)"
   - name: knowledge-orion
     type: knowledge
-    description: Die hellsten Sterne des Orion
+    description: "Die 20 hellsten Sterne des Sternbilds Orion mit Helligkeit, Radius, Entfernung, Temperatur und Art"
   - name: assistant-anja
     type: assistant
-    description: Assistentin Anja, Spezialistin für die Entwicklung von AIOS-Paketen aller Typen
+    description: "Assistentin Anja, Spezialistin für die Entwicklung von AIOS-Paketen aller Typen"
   - name: skill-5-8-zusammenfassung
     type: skill
-    description: 5-8-Zusammenfassung eines Dokuments als Memo
+    description: "Gliedert ein Dokument als 5-8-Zusammenfassung (zwei Ebenen mit je 5 bis 8 Themen) und legt sie als Memo ab"
   - name: skill-video-analyse
     type: skill
-    description: Transkript und 5-8-Zusammenfassung eines YouTube-Videos
+    description: "Analysiert ein YouTube-Video als Transkript und 5-8-Zusammenfassung mit eingebettetem Video"
+  - name: worker-deno
+    type: worker
+    description: "Arbeitspferd deno: JavaScript- und TypeScript-Laufzeit, aus den Wheels von PyPI (macOS arm64 und x86_64, Linux x86_64 und aarch64 mit glibc ab 2.27)"
+  - name: worker-yt-dlp
+    type: worker
+    description: "Arbeitspferd yt-dlp: lädt Videos und ihre Metadaten von YouTube und vielen anderen Seiten (yt-dlp[default], JS-Runtime aus worker-deno)"
+  - name: distribution-rothirsch
+    type: distribution
+    description: "Rothirsch — AIOS mit Video-Analyse und der Assistentin Anja"

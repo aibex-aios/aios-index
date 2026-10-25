@@ -6,8 +6,8 @@ Index der Pakete des Hubs `aibex-aios` für AIbex AIOS. `aios --library [<suchwo
 schema: 1
 packages:
   - name: <paket>
-    type: skill | assistant | knowledge | app | tutorial | distribution
-    description: <ein Satz>
+    type: skill | assistant | knowledge | app | tutorial | distribution | worker
+    description: "<ein Satz>"
 ```
 
 Der Index dient nur der Suche. Ein Paket, das hier fehlt, lässt sich mit seinem Namen trotzdem holen (`aios --fetch <paket>`). Neue Pakete kommen als Pull Request.
