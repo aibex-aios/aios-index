@@ -33,3 +33,6 @@ packages:
   - name: distribution-rothirsch
     type: distribution
     description: "Rothirsch — AIOS mit Video-Analyse und der Assistentin Anja"
+  - name: skill-image-generation
+    type: skill
+    description: "Erstellt Bilder in Arbeitsteilung — Claude Code schreibt das Prompt-Memo und prüft, Codex (ChatGPT) erzeugt das Bild"
