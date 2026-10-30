@@ -42,3 +42,6 @@ packages:
   - name: skill-capability-tree
     type: skill
     description: "Zeigt als Baum, welche Fähigkeiten von AIbex AIOS in einem Projektordner zur Verfügung stehen und auf welchem Weg sie dort ankommen"
+  - name: assistant-rene
+    type: assistant
+    description: "Assistent Rene, Spezialist für Recherche - Semantik neuer Begriffe"
