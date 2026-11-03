@@ -45,3 +45,6 @@ packages:
   - name: assistant-rene
     type: assistant
     description: "Assistent Rene, Spezialist für Recherche - Semantik neuer Begriffe"
+  - name: skill-cleanup
+    type: skill
+    description: "Schließt eine Session ab - aufräumen, Integrität, pushen, Übergabe, Schlussmeldung"
