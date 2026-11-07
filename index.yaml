@@ -23,7 +23,7 @@ packages:
     description: "Gliedert ein Dokument als 5-8-Zusammenfassung (zwei Ebenen mit je 5 bis 8 Themen) und legt sie als Memo ab"
   - name: skill-video-analyse
     type: skill
-    description: "Analysiert ein YouTube-Video als Transkript und 5-8-Zusammenfassung mit eingebettetem Video"
+    description: "Analysiert ein YouTube-Video als Transkript und 5-8-Zusammenfassung, auf Wunsch mit Blog, mit eingebettetem Video"
   - name: worker-deno
     type: worker
     description: "Arbeitspferd deno: JavaScript- und TypeScript-Laufzeit, aus den Wheels von PyPI (macOS arm64 und x86_64, Linux x86_64 und aarch64 mit glibc ab 2.27)"
