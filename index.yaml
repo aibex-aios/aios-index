@@ -48,3 +48,6 @@ packages:
   - name: skill-cleanup
     type: skill
     description: "Schließt eine Session ab - aufräumen, Integrität, pushen, Übergabe, Schlussmeldung"
+  - name: knowledge-capricorn
+    type: knowledge
+    description: "Regel Capricorn — jede Antwort beginnt mit dem Präfix „🐐 “, der User wird geduzt"
