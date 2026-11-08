@@ -51,3 +51,6 @@ packages:
   - name: knowledge-capricorn
     type: knowledge
     description: "Regel Capricorn — jede Antwort beginnt mit dem Präfix „🐐 “, der User wird geduzt"
+  - name: skill-schautafel
+    type: skill
+    description: "Schautafel: erklärende Übersichtsgrafik zu Themen in zwölf Stilen und frei wählbarer Kachelmatrix, als Bild über skill-image-generation"
